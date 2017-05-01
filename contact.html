@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Feedback</title>
+</head>
+<body>
+  <h1>Feedback Form</h1>
+  <form action="thanks.html" method="post">
+  <fieldset>
+    <div>
+      <label>Name:</label>
+      <input type="text" name="name" autofocus="autofocus">
+    </div>
+    <div>
+      <label>Email:</label>
+      <input type="Email" name="email">
+    </div>
+    <div>
+      <label>Are you a Liverpool supporter?</label>
+      <select name="supporter">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div>
+      <label>If you are not a Liverpool supporter, please indicate the team you support:</label>
+      <input type="text" name="team">
+    </div>
+    <div>
+      <label>Comments/Feedback</label>
+      <br>
+      <textarea name = "feedback" placeholder="Enter your feedback here...">
+      </textarea>
+    </div>
+    <div>
+      <input type="checkbox" name="cb-robot" value="not-robot">
+      I am not a robot.
+    </div>
+  </fieldset>
+  <button type="submit">Submit</button>
+  </form>
+  <h2><a href="index.html">Return Home</a></h2>
+</body>
+</html>
