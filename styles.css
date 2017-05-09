@@ -4,10 +4,33 @@ body {
 
 .bio {
   border: 5px solid red;
-  border-radius: 50px;
+  border-radius: 30px 5px;
   margin: 10px;
+  padding: 20px;
+  overflow: auto;
+}
+
+div.bio p {
+
+}
+
+h1 {
+  text-align: center;
+}
+
+div.bio h4{
+  margin: auto;
+  text-decoration: underline;
+  font-size: large;
 }
 
 .facts {
+  border: 1px solid gray;
+  width: 20%;
+  float: right;
+}
 
+img {
+  float: left;
+  width: 20%;
 }
