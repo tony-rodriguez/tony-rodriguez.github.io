@@ -4,14 +4,25 @@ body {
 
 .bio {
   border: 5px solid red;
-  border-radius: 30px 5px;
+  border-radius: 40px 5px;
   margin: 10px;
   padding: 20px;
   overflow: auto;
+  background: slategray;
 }
 
 div.bio p {
-
+  vertical-align: top;
+  display: inline-block;
+  width: 65%;
+  float: right;
+  margin-left: 3%;
+  border: 4px solid firebrick;
+  border-radius: 7px;
+  color: teal;
+  background: snow;
+  text-align: center;
+  padding: 2px;
 }
 
 h1 {
@@ -19,18 +30,40 @@ h1 {
 }
 
 div.bio h4{
-  margin: auto;
+  text-align: center;
   text-decoration: underline;
-  font-size: large;
+  font-size: larger;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: tahoma;
+}
+
+div.bio h5 {
+  text-align: center;
 }
 
 .facts {
-  border: 1px solid gray;
-  width: 20%;
+  border: 4px solid firebrick;
+  width: 65%;
   float: right;
+  font-family: helvetica;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 3%;
+  background: lightgray;
+  border-radius: 7px;
+  padding: 2px;
+}
+
+div.facts h5 {
+  text-align: center;
+  font-size: medium;
+  text-decoration: underline;
 }
 
 img {
   float: left;
-  width: 20%;
+  width: auto;
+  max-width: 30%;
+  vertical-align: top;
 }
