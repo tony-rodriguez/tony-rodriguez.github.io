@@ -3,7 +3,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto, 100%;
 
 }
 
@@ -227,10 +226,24 @@ form {
     float: none;
     display: block;
     margin: auto;
+    margin-top: 3px;
   }
   div.bio p {
     float: none;
     display: block;
     margin: auto;
+    margin-top: 3px;
+  }
+}
+
+ @media only screen and (max-width: 480 px) {
+  body {
+    background-attachment: scroll;
+    background-position: top;
+    background-repeat: repeat-y;
+  }
+
+  body {
+    display: none;
   }
 }
